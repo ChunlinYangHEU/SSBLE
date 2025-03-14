@@ -1,5 +1,5 @@
 # SSBLE
-Sparse Structured Block Encoding for quantum circuits
+Quantum circuit of Sparse Structured Block Encoding for a sparse structured matrix with given data item
 
 ## Install Python and Python packages
 
