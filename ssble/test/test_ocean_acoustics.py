@@ -166,15 +166,15 @@ def test_ocean_acoustics(matrix, paremeters):
 if __name__ == '__main__':
     # The value of '4 * num_ice + num_seawater + 5' should be a power of two.
     depth_ice = 5                       # The depth of ice
-    num_ice = 2                         # The number of grids
+    num_ice = 5                         # The number of grids
     depth_seawater = 7                  # The depth of seawater
-    num_seawater = 3                    # The number of grids
+    num_seawater = 7                    # The number of grids
     density = lambda z: 1.1             # Density at depth z
     sound_velocity = lambda z: 1900     # Sound velocity at depth z
     frequency = 1000                    # Frequency of sound wave
     lambda_ice = lambda z: 10           # Lamé coefficients of ice
     mu_ice = lambda z: 10               # Lamé coefficients of ice
-    matrix = 'A'                        # The matrix to be encoded
+    matrix = 'B'                        # The matrix to be encoded
 
     parameters = {'depth_ice': depth_ice, 'num_ice': num_ice,
                   'depth_seawater': depth_seawater, 'num_seawater': num_seawater,
